@@ -144,3 +144,7 @@ nav ul.menu2 {
   display: grid;
   justify-content: space-around;
 }
+
+.VeilleImg{
+display: inline;
+}
