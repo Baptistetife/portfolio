@@ -131,10 +131,16 @@ p{
 }
 
 nav ul.menu2 {
-  font-size: 82%;
+  font-size: 80%;
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #333;
+}
+
+.listeVeille{
+  list-style: inside;
+  display: grid;
+  justify-content: space-around;
 }
