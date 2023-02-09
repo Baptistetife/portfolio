@@ -1,0 +1,213 @@
+h2 {
+    text-decoration: underline #D6372F;
+    text-align: center;
+    margin-top: 75px;
+}
+
+.menu {
+    position: absolute;
+    left: 6%;
+    right: 6%;
+    top: 0%;
+    bottom: 94%;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.listeNavBarre {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    align-content: center;
+}
+
+.lienPage {
+    display:block;               
+    min-width: 120px;          
+    margin-left: 20px; 
+    margin-right: 20px;
+    width: 100%;
+    text-align: center;           
+    text-decoration: none;
+    border-right: 1px solid black;
+} 
+
+.lienPage a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.lienPage a:hover {
+    text-decoration: underline;
+    color: #D6372F;
+}
+
+h3{
+    text-decoration: underline #D6372F;
+    margin-top: 50px;
+    margin-left: 6%;
+}
+
+.Projet1{
+    position: absolute;
+    width: 100%;
+    height: 600px;
+    left: 0px;
+    top: 0px;
+    background-color: rgba(47, 206, 214, 0.25);
+}
+
+.texteProjet1{
+    margin-left: 6%;
+    opacity:  50%;
+    width: 60%;
+}
+
+.listeProjet1 {
+    list-style-type: none;
+    margin-left: 6%;
+    opacity: 50%;
+}
+
+.imgProjet1{
+    display: flex;
+    width: 20%;
+    height: 200px;
+    float: right;
+    margin-top: -300px;
+    margin-left: 1000px;    
+    margin-right: 6%;
+    
+}
+
+.img2Projet1{
+    display: flex;
+    width: 20%;
+    height: 200px;
+    float: right;
+    margin-top: -50px;
+    margin-left: 1000px;    
+    margin-right: 6%;
+}
+
+.projet2 {
+    position: absolute;
+    top: 600px;
+    height: 200px;
+    width: 99%;
+}
+
+.texteProjet2 {
+    margin-left: 6%;
+    opacity:  50%;
+    width: 60%;
+}
+
+.listeProjet2{
+    list-style-type: none;
+    margin-left: 6%;
+    opacity: 50%;
+}
+
+.videoLogo{
+    display: flex;
+    width: 20%;
+    height: 200px;
+    float: right;
+    margin-top: -200px;
+    margin-left: 1000px;    
+    margin-right: 6%;
+}
+
+.projet3{
+    background: rgba(47, 206, 214, 0.25); 
+    position: absolute;
+    width: 100%;
+    margin-top: 900px;
+    left: 0px;
+    height: 300px;
+}
+
+.texteProjet3 {
+    margin-left: 6%;
+    opacity:  50%;
+    width: 60%;
+}
+
+.listeProjet3{
+    list-style-type: none;
+    margin-left: 6%;
+    opacity: 50%;
+}
+
+.imgProjet3{
+    display: flex;
+    width: 20%;
+    height: 200px;
+    float: right;
+    margin-top: -200px;
+    margin-left: 1000px;    
+    margin-right: 6%;
+}
+
+.projet4{
+    position: absolute;
+    top: 1200px;
+    height: 200px;
+    width: 99%;
+}
+
+.texteProjet4 {
+    margin-left: 6%;
+    opacity:  50%;
+    width: 60%;
+}
+
+.listeProjet4{
+    list-style-type: none;
+    margin-left: 6%;
+    opacity: 50%;
+}
+
+.imgProjet4{
+    display: flex;
+    width: 20%;
+    height: 200px;
+    float: right;
+    margin-top: -250px;
+    margin-left: 1000px;    
+    margin-right: 6%;
+}
+
+footer {
+    position: absolute;
+    background-color: #FFFFFF;
+    left: 0px;
+    bottom: -900px;
+    right: 0px;
+    width: 100%;
+}
+
+.titreInfo {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.listeInfo {
+    list-style: none;
+    text-align: center;
+    opacity: 50%;
+    margin-top: 20px;
+}
+
+.listeLienInfo {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.lienInfo {
+    padding: 10px;
+    width: 25px;
+    height: 25px;
+}

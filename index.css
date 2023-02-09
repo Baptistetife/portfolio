@@ -1,0 +1,191 @@
+h2 {
+    text-decoration: underline #D6372F;
+}
+
+.menu {
+    position: absolute;
+    left: 6%;
+    right: 6%;
+    top: 0%;
+    bottom: 94%;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.listeNavBarre {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    align-content: center;
+}
+
+.lienPage {
+    display:block;               
+    min-width: 120px;          
+    margin-left: 20px; 
+    margin-right: 20px;
+    width: 100%;
+    text-align: center;           
+    text-decoration: none;
+    border-right: 1px solid black;
+} 
+
+.lienPage a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.lienPage a:hover {
+    text-decoration: underline;
+    color: #D6372F;
+}
+
+.casePresentation {
+    position: absolute;
+    width: 100%;
+    height: 339px;
+    left: 0px;
+    top: 0px;
+    background: rgba(47, 206, 214, 0.25);
+}
+
+.titrePres {
+    margin-top: 90px;
+    text-align: center;
+}
+
+.TextePres {
+    text-align: left;
+    opacity: 50%;
+    position: absolute;  
+    width: 70%;
+    left: 6%;
+    font-size: 18px;
+}
+
+.photoPres {
+    display: flex;
+    position: absolute;
+    width: 7%;
+    height: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    right: 6%;
+    top: 105px;
+}
+
+.caseCompForm {
+    position: absolute;
+    left: 6%;
+    right: 6%;
+    top: 339px;
+
+    display: flex;
+    text-align: left;
+    justify-content: space-around;
+}
+
+.titreCompForm {
+    text-align: center;
+}
+
+.texteComp {
+    opacity: 50%;
+}
+
+.listeComp {
+    list-style: none;
+    opacity: 50%;
+    column-count: 2;
+    text-align: left;
+}
+
+.TexteForm {
+    opacity: 50%;
+    width: 100%;
+    margin-right: 200px;
+    margin-top: 50px;
+}
+
+.logoLycee {
+    width : 100px;
+    float: right;
+}
+
+.logoEcole {
+    width: 100px;
+    right: 6%;
+    float: right;
+}
+
+.caseExp {
+    background: rgba(47, 206, 214, 0.25); 
+    position: absolute;
+    width: 100%;
+    margin-top: 777px;
+    left: 0px;
+    height: 400px;
+}
+
+.titreExp {
+    text-align: center;
+}
+
+.Exp {
+    display: flex;
+
+}
+ 
+.image {
+    margin: 0;
+    flex: 1;
+}
+
+.LogoExp {
+    width: 25%;
+    vertical-align: top;
+}
+
+.LogoEL {
+    width: 10%;
+    vertical-align: top;
+}
+
+.texteExp {
+    text-align: justify ;
+    opacity: 50%; 
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+footer {
+    position: absolute;
+    left: 0px;
+    bottom: -500px;
+    right: 0px;
+    width: 100%;
+}
+
+.titreInfo {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.listeInfo {
+    list-style: none;
+    text-align: center;
+    opacity: 50%;
+    margin-top: 20px;
+}
+
+.listeLienInfo {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.lienInfo {
+    padding: 10px;
+    width: 25px;
+    height: 25px;
+}

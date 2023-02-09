@@ -1,0 +1,76 @@
+h2 {
+    text-decoration: underline #D6372F;
+    text-align: center;
+    margin-top: 75px;
+}
+
+.menu {
+    position: absolute;
+    left: 6%;
+    right: 6%;
+    top: 0%;
+    bottom: 94%;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.listeNavBarre {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    align-content: center;
+}
+
+.lienPage {
+    display:block;               
+    min-width: 120px;          
+    margin-left: 20px; 
+    margin-right: 20px;
+    width: 100%;
+    text-align: center;           
+    text-decoration: none;
+    border-right: 1px solid black;
+} 
+
+.lienPage a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.lienPage a:hover {
+    text-decoration: underline;
+    color: #D6372F;
+}
+
+footer {
+    position: absolute;
+    background-color: #FFFFFF;
+    left: 0px;
+    bottom: -350px;
+    right: 0px;
+    width: 100%;
+}
+
+.titreInfo {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.listeInfo {
+    list-style: none;
+    text-align: center;
+    opacity: 50%;
+    margin-top: 20px;
+}
+
+.listeLienInfo {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.lienInfo {
+    padding: 10px;
+    width: 25px;
+    height: 25px;
+}
