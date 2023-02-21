@@ -97,7 +97,6 @@ h2 {
 
 
 
-
 .caseCompForm {
     background-color: white;
     padding-bottom: 2em;
@@ -122,9 +121,15 @@ h2 {
     text-align: center;
 }
 
+.titreCompListe{
+    display: flex;
+    align-items: center;
+}
+
 .texteComp {
     opacity: 50%;
     width: 100%;
+    align-items: center;
 }
 
 .listeComp {
@@ -137,6 +142,7 @@ h2 {
 
 .form{
     display: block;
+    flex-wrap: wrap;
     width: 50%;
 }
 
@@ -155,6 +161,7 @@ h2 {
     width: 100px;
     float: right;
 }
+
 
 
 
