@@ -3,13 +3,11 @@ h2 {
 }
 
 .menu {
-    display: flex;
-    left: 6%;
-    right: 6%;
-    top: 0%;
-    background: #FFFFFF;
-    border: 1px solid rgba(0, 0, 0, 0.5);
-    z-index: 1;
+    display: flex;  
+    flex-flow: row nowrap;  
+    justify-content: center;  
+    width: 100%;
+    background: rgba(47, 206, 214, 0.25);
 }
 
 .listeNavBarre {
@@ -17,6 +15,11 @@ h2 {
     list-style-type: none;
     justify-content: center;
     align-content: center;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    background-color: white;
+    width: 72%;
+    height: 50px;
 }
 
 .lienPage {
@@ -27,7 +30,6 @@ h2 {
     width: 100%;
     text-align: center;           
     text-decoration: none;
-    border-right: 1px solid black;
 } 
 
 .lienPage a {
@@ -40,6 +42,11 @@ h2 {
     color: #D6372F;
 }
 
+
+
+
+
+
 .casePresentation {
     display: flex;
     width: 100%;
@@ -49,13 +56,22 @@ h2 {
     background: rgba(47, 206, 214, 0.25);
 }
 
+.flexboxPres{
+    display: flex;
+    height: 339px;
+    top: 0;
+}
+
 .titrePres {
-    margin-top: 90px;
+    display: flex;
+    justify-content: center;
     text-align: center;
 }
 
 .TextePres {
+    display: flex;
     text-align: left;
+    justify-content: baseline;
     opacity: 50%; 
     width: 70%;
     left: 6%;
@@ -71,6 +87,11 @@ h2 {
     right: 6%;
     top: 105px;
 }
+
+
+
+
+
 
 .caseCompForm {
     display: flex;
@@ -155,19 +176,25 @@ h2 {
 
 footer {
     display: flex;
-    text-align: center;
     left: 0px;
     bottom: 0px;
     right: 0px;
     width: 100%;
 }
 
+.flexboxFoot {
+    display: block;
+    width: 100%;
+}
+
 .titreInfo {
+    display: block;
     margin-top: 40px;
     text-align: center;
 }
 
 .listeInfo {
+    display: block;
     list-style: none;
     text-align: center;
     opacity: 50%;
@@ -175,6 +202,7 @@ footer {
 }
 
 .listeLienInfo {
+    display: block;
     margin-top: 20px;
     text-align: center;
 }
