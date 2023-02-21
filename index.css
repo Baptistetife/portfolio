@@ -2,12 +2,18 @@ h2 {
     text-decoration: underline #D6372F;
 }
 
+.navBarre {
+    background: rgba(47, 206, 214, 0.25);
+}
+
 .menu {
     display: flex;  
     flex-flow: row nowrap;  
     justify-content: center;  
     width: 100%;
-    background: rgba(47, 206, 214, 0.25);
+    max-width: 1400px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .listeNavBarre {
@@ -17,8 +23,13 @@ h2 {
     align-items: center;
     border: 1px solid rgba(0, 0, 0, 0.5);
     background-color: white;
-    width: 80%;
-    height: 50px;
+    width: 100%;
+    height: 60px;
+    margin-top: 0%;
+    display: flex;  
+    flex-flow: row nowrap;  
+    justify-content: center;  
+    width: 100%;
 }
 
 .lienPage {
@@ -47,12 +58,18 @@ h2 {
 
 
 .casePresentation {
+    background: rgba(47, 206, 214, 0.25);
+}
+
+.conteneurPres {
     display: flex;
     width: 100%;
-    height: 339px;
-    background: rgba(47, 206, 214, 0.25);
     flex-wrap: wrap;
-    margin-bottom: 2%;
+    padding-bottom: 2em;
+    max-width: 1400px;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
 }
 
 .titrePres {
@@ -64,18 +81,15 @@ h2 {
 .TextePres {
     display: flex;
     text-align: left;
-    justify-content: baseline;
+    justify-content: flex-start;
     opacity: 50%; 
     width: 70%;
-    margin-left: 9%;
     font-size: 18px;
 }
 
 .photoPres {
-    display: flex;
-    width: 7%;
-    height: 50%;
-    margin-left: 5%;
+    margin-left: 10em;
+    width: 150px;
     border: 1px solid rgba(0, 0, 0, 0.5);   
 }
 
@@ -85,13 +99,23 @@ h2 {
 
 
 .caseCompForm {
+    background-color: white;
+    padding-bottom: 2em;
+}
+
+.conteneurCompForm {
     display: flex;
-    left: 6%;
-    right: 6%;
-    margin-top: 2%;
-    margin-bottom: 2%;
+    max-width: 1400px;
+    margin-right: auto;
+    margin-left: auto;
     text-align: left;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: space-between;   
+}
+
+.comp {
+    display: block;
+    width: 50%;
 }
 
 .titreCompForm {
@@ -100,20 +124,26 @@ h2 {
 
 .texteComp {
     opacity: 50%;
+    width: 100%;
 }
 
 .listeComp {
     list-style: none;
     opacity: 50%;
     column-count: 2;
+    width: 50%;
     text-align: left;
+}
+
+.form{
+    display: block;
+    width: 50%;
 }
 
 .TexteForm {
     opacity: 50%;
-    width: 100%;
-    margin-right: 200px;
-    margin-top: 50px;
+    width: 50%;
+    padding-top: 2em;
 }
 
 .logoLycee {
@@ -123,7 +153,6 @@ h2 {
 
 .logoEcole {
     width: 100px;
-    right: 6%;
     float: right;
 }
 
@@ -133,14 +162,17 @@ h2 {
 
 .caseExp {
     background: rgba(47, 206, 214, 0.25); 
+}
+
+.conteneurExp {
     display: flex;
     width: 100%;
-    left: 0px;
-    height: 400px;
     flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 2%;
-    margin-bottom: 2%;
+    max-width: 1400px;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: space-between;   
+    padding-bottom: 2em;
 }
 
 .titreExp {
@@ -150,27 +182,25 @@ h2 {
 
 .Exp {
     display: flex;
-
 }
  
 .image {
     margin: 0;
     flex: 1;
+    width: 33%;
+    padding-top: 2em;
 }
 
 .LogoExp {
-    width: 25%;
-    vertical-align: top;
-}
-
-.LogoEL {
-    width: 10%;
-    vertical-align: top;
+    width: 100px;
+    display: flex;
+    align-items: center;
 }
 
 .texteExp {
     text-align: justify ;
     opacity: 50%; 
+    width: 50%;
     font-size: 18px;
     margin-top: 10px;
 }
