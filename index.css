@@ -2,6 +2,10 @@ h2 {
     text-decoration: underline #D6372F;
 }
 
+body{
+    margin: 0;
+}
+
 .navBarre {
     background: rgba(47, 206, 214, 0.25);
 }
