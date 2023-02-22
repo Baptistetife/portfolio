@@ -59,6 +59,7 @@ h2 {
 
 .casePresentation {
     background: rgba(47, 206, 214, 0.25);
+    padding: 1.5em;
 }
 
 .conteneurPres {
@@ -70,6 +71,7 @@ h2 {
     margin-right: auto;
     margin-left: auto;
     align-items: center;
+    justify-content: space-between;
 }
 
 .titrePres {
@@ -88,7 +90,6 @@ h2 {
 }
 
 .photoPres {
-    margin-left: 10em;
     width: 150px;
     border: 1px solid rgba(0, 0, 0, 0.5);   
 }
@@ -99,7 +100,7 @@ h2 {
 
 .caseCompForm {
     background-color: white;
-    padding-bottom: 2em;
+    padding: 1.5em;
 }
 
 .conteneurCompForm {
@@ -168,7 +169,8 @@ h2 {
 
 
 .caseExp {
-    background: rgba(47, 206, 214, 0.25); 
+    background: rgba(47, 206, 214, 0.25);
+    padding: 1.5em;
 }
 
 .conteneurExp {
@@ -190,22 +192,26 @@ h2 {
 .Exp {
     display: flex;
     width: 100%;
+    justify-content: space-around;
 }
  
 .image {
-    width: 33%;
+    width: 20%;
     padding-top: 2em;
 }
 
 .LogoExp {
     width: 100px;
+    height: 82px;
+    padding-bottom: 2em;
 
 }
 
 .texteExp {
-    text-align: justify ;
+    text-align: left;
+    align-items: baseline;
     opacity: 50%; 
-    width: 50%;
+    width: 100%;
     font-size: 18px;
     margin-top: 10px;
 }
