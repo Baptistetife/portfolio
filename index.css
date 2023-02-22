@@ -189,7 +189,7 @@ h2 {
 .Exp {
     display: flex;
     width: 100%;
-    justify-content: space-around;
+    justify-content: space-between;
 }
  
 .image {
@@ -200,7 +200,7 @@ h2 {
 .LogoExp {
     width: 100px;
     height: 82px;
-    padding-bottom: 2em;
+    padding-bottom: 1em;
 
 }
 
