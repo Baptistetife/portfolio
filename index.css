@@ -239,7 +239,6 @@ h2 {
     width: 125px;
     height: 82px;
     padding-bottom: 1em;
-
 }
 
 .texteExp {
@@ -260,18 +259,20 @@ footer {
     bottom: 0px;
     right: 0px;
     width: 100%;
-    
+    background: white;
 }
 
 .flexboxFoot {
-    display: block;
+    display: flex;
     width: 100%;
+    bottom: 0;
+    flex-wrap: wrap;
 }
 
 .titreInfo {
     display: block;
-    margin-top: 40px;
     text-align: center;
+    width: 100%;
 }
 
 .listeInfo {
@@ -279,13 +280,13 @@ footer {
     list-style: none;
     text-align: center;
     opacity: 50%;
-    margin-top: 20px;
+    width: 100%;
 }
 
 .listeLienInfo {
     display: block;
-    margin-top: 20px;
     text-align: center;
+    width: 100%;
 }
 
 .lienInfo {
