@@ -124,6 +124,10 @@ h2 {
     align-items: center;
 }
 
+.etoiles{
+    padding-left: 0.5em;
+}
+
 .texteComp {
     opacity: 50%;
     width: 100%;
@@ -198,7 +202,7 @@ h2 {
 }
 
 .LogoExp {
-    width: 100px;
+    width: 125px;
     height: 82px;
     padding-bottom: 1em;
 
