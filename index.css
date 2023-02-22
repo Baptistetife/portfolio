@@ -49,11 +49,7 @@ h2 {
     color: #D6372F;
 }
 
-
-
-
-
-
+/*Case Presentation*/
 .casePresentation {
     background: rgba(47, 206, 214, 0.25);
     padding: 1.5em;
@@ -91,10 +87,19 @@ h2 {
     border: 1px solid rgba(0, 0, 0, 0.5);   
 }
 
+@media (max-width: 640px){
+    .TextePres{
+        width: 100%;
+    }
 
+    .photoPres{
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}  
 
-
-
+/*Case Compétences et Formations*/
 .caseCompForm {
     background-color: white;
     padding: 1.5em;
@@ -143,7 +148,6 @@ h2 {
     opacity: 50%;
     width: 50%;
     align-items: center;
-    padding-left: 2.5em;
 }
 
 .listeComp {
@@ -153,8 +157,6 @@ h2 {
     width: 50%;
     text-align: left;
 }
-
-
 
 .form{
     display: flex;
@@ -187,7 +189,6 @@ h2 {
     width : 100px;
 }
 
-
 .form2{
     width: 100%;
     padding-top: 2em;
@@ -195,14 +196,51 @@ h2 {
     align-items: center;
     justify-content: space-between;
 }
+
 .logoEcole {
     width: 100px;
 }
 
+@media (max-width: 640px){
+    .comp{
+        width: 100%;
+    }
 
+    .listeComp{
+        column-count: 1;
+        padding: 1em;
+    }
 
+    .form{
+        width: 100%;
+    }
 
+    .texteForm{
+        width: 100%;
+    }
 
+    .form1{
+        flex-wrap: wrap;
+    }
+
+    .logoLycee {
+        width : 100px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .form2{
+        flex-wrap: wrap;
+    }
+
+    .logoEcole {
+        width: 100px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+/*case Experiences*/
 .caseExp {
     background: rgba(47, 206, 214, 0.25);
     padding: 1.5em;
@@ -250,9 +288,22 @@ h2 {
     margin-top: 10px;
 }
 
+@media (max-width: 640px){
+    .Exp{
+        flex-wrap: wrap;
+    }
 
+    .image{
+        width: 100%;
+    }
 
+    .logoExp {
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
 
+/*Footer*/
 footer {
     display: flex;
     left: 0px;
