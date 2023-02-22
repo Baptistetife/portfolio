@@ -111,17 +111,28 @@ h2 {
 }
 
 .comp {
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
     width: 50%;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.titreCompForm {
+.comp1{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.titreComp {
     text-align: center;
+    width: 100%;
 }
 
 .titreCompListe{
     display: flex;
     align-items: center;
+    width: 100%;
 }
 
 .etoiles{
@@ -130,8 +141,9 @@ h2 {
 
 .texteComp {
     opacity: 50%;
-    width: 100%;
+    width: 50%;
     align-items: center;
+    padding-left: 2.5em;
 }
 
 .listeComp {
@@ -142,28 +154,50 @@ h2 {
     text-align: left;
 }
 
+
+
 .form{
-    display: block;
+    display: flex;
     flex-wrap: wrap;
+    width: 50%;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: auto;
+}
+
+.titreForm {
+    text-align: center;
+    width: 100%;
+}
+
+.texteForm{
+    opacity: 50%;
     width: 50%;
 }
 
-.TexteForm {
-    opacity: 50%;
-    width: 50%;
+.form1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     padding-top: 2em;
 }
 
 .logoLycee {
     width : 100px;
-    float: right;
 }
 
+
+.form2{
+    width: 100%;
+    padding-top: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 .logoEcole {
     width: 100px;
-    float: right;
 }
-
 
 
 
