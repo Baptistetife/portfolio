@@ -178,7 +178,7 @@ h2{
 
 .imgBts {
     display: flex;
-    width: 100%;
+    width: 250px;
 }
 
 @media (max-width: 600px){
@@ -200,7 +200,6 @@ h2{
 .caseSisrSlam{
     width: 100%;
     background-color: white;
-    padding: 1em;
 }
 
 .conteneurSisrSlam{
@@ -233,10 +232,89 @@ h3{
     padding-top: 1em;
 }
 
-
 .texteSisrSlam{
     opacity: 50%;
     width: 75%;
+}
+
+@media (max-width: 600px){
+    .Sisr{
+        width: 100%;
+    }
+
+    .Slam{
+        width: 100%;
+        justify-content: flex-start;
+    }
+}
+
+
+
+.caseMatieres{
+    background-color: rgba(47, 206, 214, 0.25);
+    width: 100%;
+}
+
+.conteneurMatieres{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 2em;
+    max-width: 1400px;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.titreGen{
+    display: flex;
+    justify-content: center;
+}
+
+.matGen{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.matSisr{
+    display: flex;
+    width: 50%;
+    flex-wrap: wrap;
+}
+
+.matSlam{
+    display: flex;
+    width: 50%;
+    flex-wrap: wrap;
+    justify-content: end;
+}
+
+.listeSisr{
+    width: 80%;
+    list-style: none;
+    opacity: 50%;
+}
+
+.listeSlam{
+    width: 70%;
+    list-style: none;
+    opacity: 50%;
+}
+
+.listeGen{
+    list-style: none;
+    opacity: 50%;
+}
+
+.titreSisrSlam{
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 600px){
+    
 }
 
 
