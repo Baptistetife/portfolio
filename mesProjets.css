@@ -146,7 +146,7 @@ a {
 
 h3{
     text-decoration: underline #D6372F;
-    width: 70%;
+    width: 100%;
     padding-top: 1em;
 }
 
@@ -181,26 +181,43 @@ h3{
 }
 
 .listeProjet1 {
-    width: 50%;
+    width: 100%;
     list-style-type: none;
     opacity: 50%;
 }
 
-.ImagesProjet1{
+.flexImgPro1{
     display: flex;
-    width: 30%;
+    width: 100%;
     justify-content: space-between;
 }
 
 .imgProjet1{
     display: flex;
     width: 300px;
-    
 }
 
 .img2Projet1{
     display: flex;
     width: 300px;
+    margin-bottom: 1em;
+}
+
+@media (max-width: 600px){
+    .texteProjet1{
+        width: 100%;
+    }
+
+    .listeProjet1{
+        width: 100%;
+    }
+
+    .flexImgPro1{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center; 
+    }
 }
 
 
@@ -225,7 +242,7 @@ h3{
 .texteProjet2{
     display: flex;
     opacity:  50%;
-    width: 70%;
+    width: 100%;
 }
 
 .listeProjet2 {
@@ -238,7 +255,21 @@ h3{
     width: 300px;
 }
 
+@media (max-width: 600px){
+    .texteProjet2{
+        width: 100%;
+    }
 
+    .listeProjet2{
+        width: 100%;
+    }
+
+    .flexVideo{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+}
 
 
 
@@ -260,7 +291,7 @@ h3{
 .texteProjet3{
     display: flex;
     opacity:  50%;
-    width: 70%;
+    width: 100%;
 }
 
 .listeProjet3 {
@@ -272,6 +303,23 @@ h3{
 
 .imgProjet3{
     width: 300px;
+}
+
+@media (max-width: 600px){
+    .texteProjet3{
+        width: 100%;
+    }
+
+    .listeProjet3{
+        width: 100%;
+    }
+
+    .flexImgPro3{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+
 }
 
 
@@ -295,7 +343,7 @@ h3{
 .texteProjet4{
     display: flex;
     opacity:  50%;
-    width: 70%;
+    width: 100%;
 }
 
 .listeProjet4 {
@@ -307,6 +355,23 @@ h3{
 
 .imgProjet4{
     width: 300px;
+}
+
+@media (max-width: 600px){
+    .texteProjet4{
+        width: 100%;
+    }
+
+    .listeProjet4{
+        width: 100%;
+    }
+
+    .flexImgPro4{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+
 }
 
 /*Footer*/

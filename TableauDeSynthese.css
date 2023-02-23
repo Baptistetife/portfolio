@@ -178,6 +178,12 @@ a {
     transition: 1s;
 }
 
+@media (max-width: 600px) {
+    .TabSynthese{
+        width: 300px;
+    }
+}
+
 /*Footer*/
 footer {
     display: flex;
