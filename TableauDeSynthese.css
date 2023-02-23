@@ -4,47 +4,144 @@ h2 {
     margin-top: 75px;
 }
 
-.menu {
-    position: absolute;
-    left: 6%;
-    right: 6%;
-    top: 0%;
-    bottom: 94%;
-    background: #FFFFFF;
-    border: 1px solid rgba(0, 0, 0, 0.5);
-    z-index: 1;
+body{
+    margin: 0;
 }
 
-.listeNavBarre {
+/*NavBarre*/
+.navBarre {
+    background: rgba(47, 206, 214, 0.25);
+}
+
+a {
+    color: #000;
+}
+  
+/* header */
+.header {
     display: flex;
-    list-style-type: none;
-    justify-content: center;
-    align-content: center;
-}
-
-.lienPage {
-    display:block;               
-    min-width: 120px;          
-    margin-left: 20px; 
-    margin-right: 20px;
+    background-color: #fff;
+    box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
     width: 100%;
-    text-align: center;           
-    text-decoration: none;
-    border-right: 1px solid black;
-} 
-
-.lienPage a {
-    text-decoration: none;
-    color: rgb(0, 0, 0);
+    max-width: 1400px;
+    margin-right: auto;
+    margin-left: auto;
 }
-
-.lienPage a:hover {
-    text-decoration: underline;
-    color: #D6372F;
+  
+.header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    background-color: #fff;
 }
-
-body {
-    background-color: rgba(47, 206, 214, 0.25);
+  
+.header li a {
+    display: block;
+    padding: 20px 20px;
+    border-right: 1px solid #f4f4f4;
+    text-decoration: none;
+}
+  
+.header li a:hover,
+.header .menu-btn:hover {
+    background-color: #f4f4f4;
+    text-decoration: underline #D6372F;
+    color: #D6372F; 
+}
+  
+.header .logo {
+    display: block;
+    font-size: 2em;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+  
+  /* menu */
+  
+.header .menu {
+    clear: both;
+    max-height: 0;
+    transition: max-height .2s ease-out;
+}
+  
+/* menu icon */  
+.header .menu-icon {
+    cursor: pointer;
+    display: inline-block;
+    padding: 28px 20px;
+    position: relative;
+    user-select: none;
+}
+  
+.header .menu-icon .navicon {
+    background: #333;
+    display: block;
+    height: 2px;
+    position: relative;
+    width: 18px;
+}
+  
+.header .menu-icon .navicon:before,
+.header .menu-icon .navicon:after {
+    background: #333;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    width: 100%;
+}
+  
+.header .menu-icon .navicon:before {
+    top: 5px;
+}
+  
+.header .menu-icon .navicon:after {
+    top: -5px;
+}
+  
+/* menu btn */  
+.header .menu-btn {
+    display: none;
+}
+  
+.header .menu-btn:checked ~ .menu {
+    max-height: 100%;
+}
+  
+.header .menu-btn:checked ~ .menu-icon .navicon {
+    background: transparent;
+}
+  
+.header .menu-btn:checked ~ .menu-icon .navicon:before {
+    transform: rotate(-45deg);
+}
+  
+.header .menu-btn:checked ~ .menu-icon .navicon:after {
+    transform: rotate(45deg);
+}
+  
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+    top: 0;
+}
+  
+@media (min-width: 600px) {
+  .header li {
+    float: left;
+  }
+  .header li a {
+    padding: 20px 30px;
+  }
+  .header .menu {
+    clear: none;
+    float: right;
+    max-height: none;
+  }
+  .header .menu-icon {
+    display: none;
+  }
 }
 
 .pdf {
@@ -53,30 +150,41 @@ body {
     width: 1000;
 }
 
+/*Footer*/
 footer {
-    position: absolute;
-    background-color: #FFFFFF;
+    display: flex;
     left: 0px;
-    bottom: -350px;
+    bottom: 0px;
     right: 0px;
     width: 100%;
+    background: white;
+}
+
+.flexboxFoot {
+    display: flex;
+    width: 100%;
+    bottom: 0;
+    flex-wrap: wrap;
 }
 
 .titreInfo {
-    margin-top: 40px;
+    display: block;
     text-align: center;
+    width: 100%;
 }
 
 .listeInfo {
+    display: block;
     list-style: none;
     text-align: center;
     opacity: 50%;
-    margin-top: 20px;
+    width: 100%;
 }
 
 .listeLienInfo {
-    margin-top: 20px;
+    display: block;
     text-align: center;
+    width: 100%;
 }
 
 .lienInfo {
