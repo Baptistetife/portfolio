@@ -1,7 +1,6 @@
 h2 {
     text-decoration: underline #D6372F;
     text-align: center;
-    margin-top: 75px;
 }
 
 body{
@@ -144,10 +143,39 @@ a {
   }
 }
 
-.pdf {
-    margin-left: 25%;
-    height: 900;
-    width: 1000;
+.caseTab{
+    background: rgba(47, 206, 214, 0.25);
+    padding: 2em;
+}
+
+.TabSynthese{
+    display: flex;
+    max-width: 1400px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 2em;
+}
+
+.btn{
+    display: flex;
+    max-width: 1400px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #f4f4f4;
+    border: 1px solid;
+    text-align: center;
+    font-size: 18px;
+    padding: 20px;
+    width: 150px;
+}
+
+.btn a {
+    text-decoration: none;
+}
+
+.btn:hover {
+    width: 175px;
+    transition: 1s;
 }
 
 /*Footer*/
