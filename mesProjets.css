@@ -1,7 +1,7 @@
 h2 {
     text-decoration: underline #D6372F;
     text-align: center;
-    margin-top: 75px;
+    padding-top: 1em;
 }
 
 body{
@@ -147,6 +147,7 @@ a {
 h3{
     text-decoration: underline #D6372F;
     width: 70%;
+    padding-top: 1em;
 }
 
 

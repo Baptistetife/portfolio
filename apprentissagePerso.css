@@ -217,6 +217,34 @@ a {
     margin-left: auto;
 }
 
+@media (max-width: 600px){
+    .caseVideo1{
+        justify-content: center;
+    }
+
+    .video1{
+        width: 300px;
+        justify-content: center;
+    }
+
+    .caseVideo2{
+        justify-content: center;
+    }
+
+    .video2{
+        width: 300px;
+    }
+
+    .caseVideo3{
+        justify-content: center;
+    }
+
+    .video3{
+        width: 300px;
+    }
+}
+
+
 /*Footer*/
 footer {
     display: flex;
