@@ -1,7 +1,6 @@
 h2 {
     text-decoration: underline #D6372F;
     text-align: center;
-    margin-top: 75px;
 }
 
 body{
@@ -143,6 +142,107 @@ a {
     display: none;
   }
 }
+
+
+.caseIntro{
+    width: 100%;
+    background-color: rgba(47, 206, 214, 0.25);
+}
+
+.Intro{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    padding-bottom: 2em;
+    max-width: 1400px;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h2{
+    text-decoration: underline #D6372F;
+    width: 100%;
+    padding-top: 1em;
+}
+
+.texteIntro {
+    opacity:  50%;
+    width: 70%;
+}
+
+.flexLogoBts{
+    width: 20%;
+}
+
+.imgBts {
+    display: flex;
+    width: 100%;
+}
+
+@media (max-width: 600px){
+    .texteIntro{
+        width: 100%;
+    }
+
+    .imgBts{
+        width: 300px;
+    }
+
+    .flexLogoBts{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+.caseSisrSlam{
+    width: 100%;
+    background-color: white;
+    padding: 1em;
+}
+
+.conteneurSisrSlam{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 2em;
+    max-width: 1400px;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Sisr{
+    display: flex;
+    width: 50%;
+    flex-wrap: wrap;
+}
+
+.Slam{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    justify-content: end;
+}
+
+h3{
+    text-decoration: underline #D6372F;
+    width: 75%;
+    padding-top: 1em;
+}
+
+
+.texteSisrSlam{
+    opacity: 50%;
+    width: 75%;
+}
+
+
+
+
+
 
 /*Footer*/
 footer {
