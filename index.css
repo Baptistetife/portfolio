@@ -25,6 +25,7 @@ a {
     max-width: 1400px;
     margin-right: auto;
     margin-left: auto;
+    justify-content: center;
 }
   
 .header ul {
@@ -369,6 +370,12 @@ a {
 
 .LogoExp {
     width: 125px;
+    height: 82px;
+    padding-bottom: 1em;
+}
+
+.logoTournan{
+    width: 175px;
     height: 82px;
     padding-bottom: 1em;
 }
