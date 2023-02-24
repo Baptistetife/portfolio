@@ -143,7 +143,6 @@ a {
   }
 }
 
-
 .caseIntro{
     width: 100%;
     background-color: rgba(47, 206, 214, 0.25);
@@ -246,9 +245,11 @@ h3{
         width: 100%;
         justify-content: flex-start;
     }
+
+    .texteSisrSlam{
+        width: 100%;
+    }
 }
-
-
 
 .caseMatieres{
     background-color: rgba(47, 206, 214, 0.25);
@@ -314,13 +315,55 @@ h3{
 }
 
 @media (max-width: 600px){
+    .matGen{
+        width: 100%;
+        justify-content: flex-start;
+    }
     
+    .matSisr{
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    
+    .matSlam{
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    
+    .listeSisr{
+        width: 100%;
+        list-style: none;
+        opacity: 50%;
+    }
+    
+    .listeSlam{
+        width: 100%;
+        list-style: none;
+        opacity: 50%;
+    }
+    
+    .listeGen{
+        list-style: none;
+        opacity: 50%;
+        width: 100%;
+    }
+    
+    .titreGen{
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;   
+    }
+
+    .titreSisrSlam{
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+    }
 }
-
-
-
-
-
 
 /*Footer*/
 footer {
