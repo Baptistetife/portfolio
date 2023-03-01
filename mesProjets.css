@@ -26,6 +26,7 @@ a {
     max-width: 1400px;
     margin-right: auto;
     margin-left: auto;
+    justify-content: center;
 }
   
 .header ul {
