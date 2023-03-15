@@ -185,6 +185,31 @@ a {
     }
 }
 
+.caseDoc{
+    padding: 2em;
+}
+
+.docs{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1400px;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center;
+}
+
+.btnDoc{
+    display: flex;
+    margin: 1em;
+    background-color: #f4f4f4;
+    border: 1px solid;
+    text-align: center;
+    font-size: 18px;
+    padding: 20px;
+    width: 150px;
+    justify-content: center;
+}
+
 /*Footer*/
 footer {
     display: flex;
