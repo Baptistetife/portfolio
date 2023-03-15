@@ -205,60 +205,9 @@ h3{
     }
 }
 
-
-
-
-.caseSommaire {
-    width: 100%;
-    background-color: white;
-}
-
-.sommaire{
-    display: flex;
-    width: 100%;
-    flex-wrap: wrap;
-    padding-bottom: 2em;
-    max-width: 1400px;
-    margin-right: auto;
-    margin-left: auto;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.listeSommaire {
-    list-style-type: none;
-    opacity: 50%;
-}
-
-.flexImgVT2{
-    width: 20%;
-}
-
-.imgVT2 {
-    display: flex;
-    width: 100%;
-}
-
-@media (max-width: 600px){
-    .texteSommaire{
-        width: 100%;
-    }
-
-    .imgVT2{
-        width: 300px;
-    }
-
-    .flexImgVT2{
-        display: flex;
-        width: 100%;
-        justify-content: center;
-    }
-}
-
-
 .casePremierePartie{
     width: 100%;
-    background-color: rgba(47, 206, 214, 0.25);
+    background-color: white;
 }
 
 .premierePartie{
