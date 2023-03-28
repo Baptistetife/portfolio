@@ -180,11 +180,11 @@ h3{
     width: 70%;
 }
 
-.flexImgVT{
+.flexImgVeille{
     width: 20%;
 }
 
-.imgVT {
+.imgVeille {
     display: flex;
     width: 100%;
 }
@@ -194,11 +194,11 @@ h3{
         width: 100%;
     }
 
-    .imgVT{
+    .imgVeille{
         width: 300px;
     }
 
-    .flexImgVT{
+    .flexImgVeille{
         display: flex;
         width: 100%;
         justify-content: center;
@@ -246,6 +246,53 @@ h3{
     }
 
     .flexImgVT3{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+.caseDeuxiemePartie{
+    width: 100%;
+    background-color: rgba(47, 206, 214, 0.25);;
+}
+
+.deuxiemePartie{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    padding-bottom: 2em;
+    max-width: 1400px;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.texteDeuxiemePartie {
+    opacity:  50%;
+    width: 60%;
+}
+
+.flexImgAntivirus{
+    width: 20%;
+}
+
+.imgAntivirus {
+    display: flex;
+    width: 100%;
+}
+
+@media (max-width: 600px){
+    .texteDeuxiemePartie{
+        width: 100%;
+    }
+
+    .imgAntivirus{
+        width: 300px;
+    }
+
+    .flexImgAntivirus{
         display: flex;
         width: 100%;
         justify-content: center;

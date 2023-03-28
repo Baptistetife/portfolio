@@ -375,6 +375,44 @@ h3{
 
 }
 
+.caseProjet5{
+    width: 100%;
+    background-color: rgba(47, 206, 214, 0.25);
+}
+
+.Projet5{
+    display: flex;
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+    padding-bottom: 2em;
+    justify-content: space-between;
+}
+
+.texteProjet5{
+    display: flex;
+    opacity:  50%;
+    width: 100%;
+}
+
+.listeProjet5 {
+    width: 25%;
+    list-style-type: none;
+    opacity: 50%;
+}
+
+@media (max-width: 600px){
+    .texteProjet5{
+        width: 100%;
+    }
+
+    .listeProjet5{
+        width: 100%;
+    }
+
+}
+
 /*Footer*/
 footer {
     display: flex;
