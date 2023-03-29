@@ -354,8 +354,39 @@ h3{
 }
 
 
-.imgProjet4{
+.imgProjet5{
     width: 300px;
+}
+
+.docs{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1400px;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center;
+}
+
+.btnDoc{
+    display: flex;
+    margin: 1em;
+    background-color: #f4f4f4;
+    border: 1px solid;
+    text-align: center;
+    font-size: 18px;
+    padding: 20px;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnDoc a {
+    text-decoration: none;
+}
+
+.btnDoc:hover {
+    width: 175px;
+    transition: 1s;
 }
 
 @media (max-width: 600px){
@@ -408,6 +439,44 @@ h3{
     }
 
     .listeProjet5{
+        width: 100%;
+    }
+
+}
+
+.caseProjet6{
+    width: 100%;
+    background-color: white;
+}
+
+.Projet6{
+    display: flex;
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+    padding-bottom: 2em;
+    justify-content: space-between;
+}
+
+.texteProjet6{
+    display: flex;
+    opacity:  50%;
+    width: 100%;
+}
+
+.listeProjet6 {
+    width: 25%;
+    list-style-type: none;
+    opacity: 50%;
+}
+
+@media (max-width: 600px){
+    .texteProjet6{
+        width: 100%;
+    }
+
+    .listeProjet6{
         width: 100%;
     }
 
